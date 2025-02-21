@@ -16,3 +16,6 @@ proyecto.
 3. Escalabilidad: Desplegar multiples recursos, lo que incluye entornos complejos.
 
 4. Colaboración: Versionado y utilizado, revisado. 
+
+***Listar imagenes de GCLOD
+gcloud compute images list
