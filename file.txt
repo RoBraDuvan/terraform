@@ -1,0 +1,18 @@
+
+IAC = Insfraestructura as Code (Insfraestructura como codigo)
+
+==>> Definir, Aprovisionar, Gestionar recursos!! Proveedor Cloud (GCP)
+
+==> Recursos: Redes, VM, Cluster K8S, Almacenamiento, Serveless
+
+
+Ventajas de IAC
+1. Automatización: Sin la necesidad de desplegar la Insfraestructura de forma manual,
+IAC nos permite hacerlo con un par de comandos.
+
+2. Replicación: Tomar las mismas configuraciones, y replicar la Insfraestructura en otro 
+proyecto. 
+
+3. Escalabilidad: Desplegar multiples recursos, lo que incluye entornos complejos.
+
+4. Colaboración: Versionado y utilizado, revisado. 

@@ -1,5 +1,5 @@
 .terraform
 .terraform.lock.hcl
-consiti-bootcamp-5afa81eeab37.json
+**.json
 05InstallDocker.txt
 terraform.tfstate
