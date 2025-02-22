@@ -2,6 +2,7 @@ resource "google_sql_database_instance" "sql-cloud-bootcamp" {
     name = "sql-cloud-bootcamp"
     database_version = "MYSQL_5_7"
     region = "us-central1"
+    deletion_protection = false
     settings {
         tier = "db-f1-micro"
         backup_configuration {
