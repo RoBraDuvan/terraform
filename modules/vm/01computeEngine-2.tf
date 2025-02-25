@@ -1,7 +1,7 @@
 resource "google_compute_instance" "instancia2" {
-    name = "instancia-bootcamp-02"
-    machine_type = "e2-micro"
-    zone = "us-central1-a"
+    name = "${var.name_instance}-2"
+    machine_type = var.machine_type[0]
+    zone = "${var.region}-a"
 
     boot_disk {
         initialize_params {

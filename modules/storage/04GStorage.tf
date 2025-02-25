@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "bucket-bootcamp" {
-    name = "bucket-bootcamp-2025-01"
+    name = "${var.project}bucket-bootcamp-2025-01"
     location = "us-central1"
     storage_class = "STANDARD"
     force_destroy = true
@@ -22,5 +22,6 @@ resource "google_storage_bucket_iam_member" "bucket-bootcamp-iam-2" {
 resource "google_storage_bucket_object" "object-bootcamp" {
     name = "object-bootcamp"
     bucket = google_storage_bucket.bucket-bootcamp.name
-    source = "index.html"
+    source = "./modules/storage/index.html"
 }
+

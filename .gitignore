@@ -3,3 +3,4 @@
 **.json
 05InstallDocker.txt
 terraform.tfstate
+terraform.tfstate.backup
