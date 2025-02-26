@@ -4,6 +4,12 @@ variable "project" {
     sensitive   = false
 }
 
+variable "password" {
+    description = "The password of the db"
+    type        = string
+    sensitive   = true 
+}
+
 variable "region" {
     description = "The region"
     type        = string

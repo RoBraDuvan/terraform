@@ -18,7 +18,7 @@ resource "google_sql_database_instance" "sql-cloud-bootcamp" {
 resource "google_sql_user" "sql-cloud-bootcamp-user" {
     name = "sql-cloud-bootcamp-user"
     instance = google_sql_database_instance.sql-cloud-bootcamp.name
-    password = "password"
+    password = var.password
     host = "%"
 }
 
